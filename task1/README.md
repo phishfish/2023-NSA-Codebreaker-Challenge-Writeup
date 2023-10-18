@@ -10,3 +10,4 @@ With this knowledge, execute the query "WHERE * FROM _____ WHICH longituge BETWE
 Entering in the two IDs gives us the flag for task1, however, wouldn't it be cooler if it were... more complicated????
 
 ## Descending Into the SQLite API Dungeons
+You can interact with the SQLite API through Python or C. There is very good documentation on SQLite's official website that helped me get started. In this case, my scripts would open the database file and then execute the query from above. This method yielded the same result, and made me very happy to have solved task1 in (technically) three ways. 
